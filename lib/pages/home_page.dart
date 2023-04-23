@@ -15,7 +15,7 @@ class Homepage extends StatelessWidget {
       appBar: AppBar(
           
           title: Center(
-            child: Text("hello flkutter"),
+            child: Text("hello peter"),
           )),
       body: Center(
         child: Container(
