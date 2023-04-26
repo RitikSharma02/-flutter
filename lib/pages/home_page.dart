@@ -14,9 +14,12 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Center(
-        child: Text("hello peter"),
-      )),
+          centerTitle: true,
+          title: Text("Catalog App"),
+          // title: Center(
+          //   child: Text(),
+          // )
+          ),
       body: Center(
         child: Container(
           child: Text(" $days of flutter challange"),
