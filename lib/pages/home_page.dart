@@ -14,15 +14,15 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          centerTitle: true,
-          title: Text("Catalog App"),
-          // title: Center(
-          //   child: Text(),
-          // )
-          ),
+        centerTitle: true,
+        title: Text("Catalog App"),
+        // title: Center(
+        //   child: Text(),
+        // )
+      ),
       body: Center(
         child: Container(
-          child: Text(" $days of flutter challange"),
+          child: Text(context.runtimeType.toString()),
         ),
       ),
       drawer: MyDrawer(),
